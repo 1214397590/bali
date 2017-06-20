@@ -81,16 +81,17 @@ header .menu_title{
     z-index: 456;
 }
 .suspension{
-    width: 100px;
+    width: 100%;
+    margin: 0 auto;
     height: 202px;
     position: relative;
-    top: 306px;
-    left: 60px;
+    top:304px;
     z-index: 123;
 }
 .suspension>a{
     width: 100px;
     height: 100px;
+    left: 63px;;
     position: absolute;
     bottom:0;
 
@@ -99,7 +100,7 @@ header .menu_title{
     content: "";
     position: absolute;
     left: 53px;;
-    width: 10px;;
+    width: 100%;
     height: 305px;
     border-left: 1px solid red;
     bottom: 23px;
